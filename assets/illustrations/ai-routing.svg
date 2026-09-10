@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="270" viewBox="0 0 620 270" fill="none">
+  <defs>
+    <linearGradient id="g" x1="64" y1="22" x2="490" y2="242" gradientUnits="userSpaceOnUse"><stop stop-color="#28D6D5"/><stop offset=".52" stop-color="#4092FF"/><stop offset="1" stop-color="#7359FF"/></linearGradient>
+    <linearGradient id="bubble" x1="22" y1="18" x2="230" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="#73D8FF" stop-opacity=".65"/><stop offset="1" stop-color="#4092FF" stop-opacity=".26"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#04172B" flood-opacity=".22"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M20 22h206a18 18 0 0 1 18 18v50a18 18 0 0 1-18 18H93l-28 24 7-24H38a18 18 0 0 1-18-18V40a18 18 0 0 1 18-18Z" fill="url(#bubble)" stroke="#83CAFF"/>
+    <text x="43" y="57" fill="white" font-family="Onest, Arial, sans-serif" font-size="16">Сәлем,</text>
+    <text x="43" y="82" fill="white" font-family="Onest, Arial, sans-serif" font-size="16">қалай көмектесе аламын?</text>
+  </g>
+  <g transform="translate(238 117)" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="20" width="70" height="70" rx="13"/>
+    <path d="M35 12v8m14-8v8m14-8v8m14-8v8M35 90v8m14-8v8m14-8v8m14-8v8M12 35h8m-8 14h8m-8 14h8m-8 14h8m70-42h8m-8 14h8m-8 14h8m-8 14h8"/>
+    <circle cx="55" cy="55" r="22"/>
+    <path d="m43 65 7-20 7 20m-11.5-8h9M64 45v20"/>
+  </g>
+  <path d="M340 154c42-34 62-37 94-40M340 163c42 0 62 2 94 2M340 172c42 34 62 37 94 40" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+  <path d="m427 110 8 4-7 5m-1 42 8 4-8 5m0 38 8 4-7 5" stroke="#28D6D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Onest, Arial, sans-serif" font-size="14" font-weight="600" fill="white">
+    <rect x="446" y="88" width="162" height="48" rx="9" fill="#243B59" stroke="#4A6585"/><text x="468" y="117">Баланс</text>
+    <rect x="446" y="142" width="162" height="48" rx="9" fill="#243B59" stroke="#4A6585"/><text x="468" y="171">Статус заявки</text>
+    <rect x="446" y="196" width="162" height="48" rx="9" fill="#243B59" stroke="#4A6585"/><text x="468" y="225">Оператор</text>
+  </g>
+</svg>

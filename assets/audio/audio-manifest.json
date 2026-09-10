@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Платёж по кредиту",
+    "language": "ru",
+    "description": "Робот сообщает сумму и дату платежа по кредиту",
+    "file": "01-credit-payment-ru.mp3",
+    "duration": 86.230204
+  },
+  {
+    "title": "Неофициальная ОС",
+    "language": "ru",
+    "description": "Робот объясняет причину ошибки и рекомендует сервисный центр",
+    "file": "02-unofficial-os-ru.mp3",
+    "duration": 89.952
+  },
+  {
+    "title": "Блокировка карты",
+    "language": "kz",
+    "description": "Робот помогает временно заблокировать карту в приложении",
+    "file": "03-card-block-kz.mp3",
+    "duration": 133.198367
+  },
+  {
+    "title": "Как совершить перевод",
+    "language": "kz",
+    "description": "Робот уточняет тип перевода и объясняет порядок действий",
+    "file": "04-transfer-kz.mp3",
+    "duration": 89.991837
+  }
+]

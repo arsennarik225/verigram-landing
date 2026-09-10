@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verigram — AI для клиентских разговоров</title>
+  <meta name="description" content="AI-оператор для входящих и исходящих обращений, речевой аналитики и клиентских процессов на казахском и русском языках">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-mesh" src="assets/backgrounds/hero-mesh.svg" alt="" aria-hidden="true">
+    <div class="container">
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="brand" href="#top" aria-label="Verigram">
+          <img src="assets/logo/verigram-logo-white.svg" alt="Verigram">
+        </a>
+        <span class="nav-languages">KZ · RU</span>
+      </nav>
+
+      <div class="hero-grid" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-КЛИЕНТСКИЙ СЕРВИС · KZ · RU</p>
+          <h1>Послушайте, как<br><span>AI-оператор Verigram</span><br>общается с клиентами</h1>
+          <p class="hero-lead">Распознаёт речь, понимает запрос клиента и самостоятельно ведёт диалог</p>
+          <p class="hero-processes">Входящие обращения · Исходящие звонки · Collection · Продажи · Подтверждение операций</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#audio"><img src="assets/icons/play.svg" alt="">Послушать реальные диалоги</a>
+            <a class="button button-secondary" href="#contact">Обсудить внедрение</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img class="hero-agent" src="assets/hero/hero-agent-transparent.webp" alt="">
+          <img class="routing-visual" src="assets/illustrations/ai-routing.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section audio-section" id="audio">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <h2>Реальные примеры работы AI-оператора</h2>
+            <p>Диалоги на казахском и русском языках</p>
+          </div>
+          <div class="filters" role="group" aria-label="Фильтр по языку">
+            <button class="filter is-active" type="button" data-filter="all">Все</button>
+            <button class="filter" type="button" data-filter="kz">Қазақша</button>
+            <button class="filter" type="button" data-filter="ru">Русский</button>
+          </div>
+        </div>
+
+        <div class="audio-grid">
+          <article class="audio-card" data-language="ru">
+            <div class="audio-meta"><strong>Платёж по кредиту</strong><span>Русский</span></div>
+            <div class="audio-control">
+              <button class="play-button" type="button" aria-label="Воспроизвести: Платёж по кредиту"><img src="assets/icons/play.svg" alt=""></button>
+              <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <time>01:26</time>
+            </div>
+            <p>Робот сообщает сумму и дату платежа по кредиту</p>
+            <audio preload="none" src="assets/audio/01-credit-payment-ru.mp3"></audio>
+          </article>
+
+          <article class="audio-card" data-language="ru">
+            <div class="audio-meta"><strong>Неофициальная ОС</strong><span>Русский</span></div>
+            <div class="audio-control">
+              <button class="play-button" type="button" aria-label="Воспроизвести: Неофициальная ОС"><img src="assets/icons/play.svg" alt=""></button>
+              <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <time>01:29</time>
+            </div>
+            <p>Робот объясняет причину ошибки и рекомендует сервисный центр</p>
+            <audio preload="none" src="assets/audio/02-unofficial-os-ru.mp3"></audio>
+          </article>
+
+          <article class="audio-card" data-language="kz">
+            <div class="audio-meta"><strong>Блокировка карты</strong><span>Қазақша</span></div>
+            <div class="audio-control">
+              <button class="play-button" type="button" aria-label="Воспроизвести: Блокировка карты"><img src="assets/icons/play.svg" alt=""></button>
+              <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <time>02:13</time>
+            </div>
+            <p>Робот помогает временно заблокировать карту в приложении</p>
+            <audio preload="none" src="assets/audio/03-card-block-kz.mp3"></audio>
+          </article>
+
+          <article class="audio-card" data-language="kz">
+            <div class="audio-meta"><strong>Как совершить перевод</strong><span>Қазақша</span></div>
+            <div class="audio-control">
+              <button class="play-button" type="button" aria-label="Воспроизвести: Как совершить перевод"><img src="assets/icons/play.svg" alt=""></button>
+              <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <time>01:29</time>
+            </div>
+            <p>Робот уточняет тип перевода и объясняет порядок действий</p>
+            <audio preload="none" src="assets/audio/04-transfer-kz.mp3"></audio>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section capabilities-section">
+      <div class="container">
+        <div class="section-heading"><h2>Один AI-сервис для разных клиентских процессов</h2></div>
+        <div class="capability-grid">
+          <article class="feature-card"><img src="assets/icons/support-headset.svg" alt=""><h3>Первая линия поддержки</h3><p>Отвечает на типовые вопросы клиентов 24/7 без ожидания оператора</p></article>
+          <article class="feature-card"><img src="assets/icons/soft-collection.svg" alt=""><h3>Soft Collection</h3><p>Напоминает о задолженности, уточняет статус и фиксирует результат разговора</p></article>
+          <article class="feature-card"><img src="assets/icons/outbound-sales.svg" alt=""><h3>Исходящие продажи</h3><p>Обзванивает клиентов, определяет интерес и передаёт лид менеджеру</p></article>
+          <article class="feature-card"><img src="assets/icons/operation-confirmation.svg" alt=""><h3>Подтверждение операций</h3><p>Верифицирует критические действия и подтверждает операции через голосовой канал</p></article>
+          <article class="feature-card"><img src="assets/icons/smart-routing.svg" alt=""><h3>Умная маршрутизация</h3><p>Определяет тему обращения и направляет клиента в нужный сценарий или оператору</p></article>
+          <article class="feature-card"><img src="assets/icons/speech-analytics.svg" alt=""><h3>Речевая аналитика</h3><p>Анализирует разговоры, выявляет основные причины обращений, проблемные продукты и тренды</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="container">
+        <h2>Что получает бизнес</h2>
+        <div class="benefit-grid">
+          <article><strong>до 70%</strong><p>Типовых обращений могут обрабатываться без участия оператора</p></article>
+          <article><strong>24/7</strong><p>Обслуживание клиентов без очередей</p></article>
+          <article><strong>1M+</strong><p>Звонков в месяц — масштабирование под высокий объём обращений</p></article>
+          <article><strong class="benefit-title">Снижение нагрузки<br>на операторов</strong><p>Операторы работают со сложными обращениями, AI забирает типовые</p></article>
+        </div>
+        <p class="disclaimer">Фактический уровень автоматизации зависит от структуры обращений, количества сценариев, интеграций и внутренних процессов компании</p>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <div class="section-heading"><h2>Как работает Verigram</h2></div>
+        <div class="process-flow">
+          <article><img src="assets/icons/microphone.svg" alt=""><h3>Клиент</h3><p>говорит</p></article><span aria-hidden="true">›</span>
+          <article><img src="assets/icons/waveform.svg" alt=""><h3>ASR</h3><p>распознаёт речь</p></article><span aria-hidden="true">›</span>
+          <article><img src="assets/icons/nlu-ai.svg" alt=""><h3>NLU / AI</h3><p>понимает намерение</p></article><span aria-hidden="true">›</span>
+          <article><img src="assets/icons/scenario-llm.svg" alt=""><h3>Сценарий / LLM</h3><p>определяет действие</p></article><span aria-hidden="true">›</span>
+          <article><img src="assets/icons/api-database.svg" alt=""><h3>API</h3><p>получает данные из систем компании</p></article><span aria-hidden="true">›</span>
+          <article><img src="assets/icons/tts-speaker.svg" alt=""><h3>TTS</h3><p>отвечает клиенту</p></article>
+        </div>
+        <p class="process-summary">Verigram объединяет распознавание речи, NLU, сценарный движок, LLM, интеграции и синтез речи в одном решении</p>
+      </div>
+    </section>
+
+    <section class="section industries-section">
+      <div class="container">
+        <div class="section-heading"><h2>Для финтеха и компаний с большим клиентским потоком</h2></div>
+        <div class="industry-grid">
+          <article class="compact-card"><img src="assets/icons/bank.svg" alt=""><div><h3>Банки и МФО</h3><p>Поддержка, кредиты, платежи, collection, антифрод, уведомления</p></div></article>
+          <article class="compact-card"><img src="assets/icons/payment-card.svg" alt=""><div><h3>Fintech и платежные сервисы</h3><p>Статусы операций, верификация, поддержка клиентов</p></div></article>
+          <article class="compact-card"><img src="assets/icons/insurance.svg" alt=""><div><h3>Страхование</h3><p>Консультации, статусы заявок, пролонгация, уведомления</p></div></article>
+          <article class="compact-card"><img src="assets/icons/telecom.svg" alt=""><div><h3>Телеком и сервисные компании</h3><p>Первая линия поддержки, массовые обращения, продажи, уведомления</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section region-section">
+      <div class="container">
+        <div class="section-heading"><h2>Разработано для Центральной Азии</h2></div>
+        <div class="region-grid">
+          <article class="mini-card"><img src="assets/icons/language-chat.svg" alt=""><p>Казахский, русский и смешанная речь</p></article>
+          <article class="mini-card"><img src="assets/icons/adaptive-models.svg" alt=""><p>Модели адаптируются под бизнес и терминологию компании</p></article>
+          <article class="mini-card"><img src="assets/icons/cloud.svg" alt=""><p>On-premise или Cloud</p></article>
+          <article class="mini-card"><img src="assets/icons/integration-link.svg" alt=""><p>Интеграция с CRM, Core, API и другими системами</p></article>
+          <article class="mini-card"><img src="assets/icons/security-lock.svg" alt=""><p>Работа с учётом требований информационной безопасности</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section llm-section">
+      <div class="container">
+        <div class="section-heading"><h2>Не только голосовой робот</h2><p>Verigram может использовать LLM и речевую аналитику для работы с базой знаний и анализа клиентских разговоров</p></div>
+        <div class="llm-grid">
+          <article class="compact-card"><img src="assets/icons/knowledge-base.svg" alt=""><div><h3>База знаний</h3><p>Ответы на основе корпоративной информации</p></div></article>
+          <article class="compact-card"><img src="assets/icons/analytics-insights.svg" alt=""><div><h3>Речевая аналитика</h3><p>Анализ большого количества звонков</p></div></article>
+          <article class="compact-card"><img src="assets/icons/ai-assistant.svg" alt=""><div><h3>AI Assistant</h3><p>Поиск трендов, проблемных продуктов и новых причин обращений</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <img class="footer-mesh" src="assets/backgrounds/footer-mesh.svg" alt="" aria-hidden="true">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-cta">
+          <h2>Есть процесс, который хотите автоматизировать?</h2>
+          <p>Покажем, как Verigram может работать на ваших сценариях и данных</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:abylay@verigram.kz">Запросить демо</a>
+            <a class="button button-secondary" href="mailto:uakhat@verigram.ai">Связаться с Verigram</a>
+          </div>
+        </div>
+        <div class="contact"><strong>Абылай Шаихов</strong><span>Project Manager</span><a href="mailto:abylay@verigram.kz">abylay@verigram.kz</a><a href="tel:+77017667816">+7 701 766 78 16</a></div>
+        <div class="contact"><strong>Уахат Бастимиев</strong><span>CEO</span><a href="mailto:uakhat@verigram.ai">uakhat@verigram.ai</a><a href="tel:+77772458763">+7 777 245 87 63</a></div>
+      </div>
+      <div class="footer-bottom">
+        <img src="assets/logo/verigram-logo-white.svg" alt="Verigram">
+        <span>AI для реальных разговоров</span>
+        <a href="https://www.verigram.kz">www.verigram.kz</a>
+        <span>KZ · RU</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Use case: background-extraction
+Asset type: transparent landing-page hero cutout
+Primary request: a polished Central Asian woman customer-service professional, half body, dark hair in a neat low bun, navy business blazer over a white blouse, holding a dark smartphone near her mouth as if speaking with an AI voice service.
+Style: photorealistic premium fintech campaign, soft cool blue rim light, realistic skin and fabric texture.
+Composition: vertical half-body cutout with complete head, shoulders, arms, phone and lower torso; generous transparent margin; intended for right side of a website hero.
+Constraints: true transparent background; no text, logo, speech bubble, UI cards, AI chip, decorative dots or watermark.

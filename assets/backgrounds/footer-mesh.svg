@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="320" viewBox="0 0 1440 320" fill="none">
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#4092FF" fill-opacity=".45"/>
+    </pattern>
+    <radialGradient id="fade"><stop stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+    <mask id="mask"><ellipse cx="1330" cy="210" rx="300" ry="220" fill="url(#fade)"/></mask>
+  </defs>
+  <rect width="1440" height="320" fill="url(#dots)" mask="url(#mask)"/>
+</svg>
