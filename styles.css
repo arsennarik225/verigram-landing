@@ -310,3 +310,8 @@ h1 { font-size:clamp(28px,8.5vw,48px);line-height:1.08;letter-spacing:-.02em }
 .mini-card { align-items:center }
 .footer { padding-top:28px;background:#123d5e }
 }
+@media (min-width: 721px) {
+  .hero-agent {
+    transform: translateX(-60px);
+  }
+}
